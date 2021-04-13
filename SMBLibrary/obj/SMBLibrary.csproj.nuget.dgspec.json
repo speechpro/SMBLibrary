@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\WS\\RemoteFilesystem\\SMBLibrary\\SMBLibrary\\SMBLibrary.csproj": {}
+  },
+  "projects": {
+    "D:\\WS\\RemoteFilesystem\\SMBLibrary\\SMBLibrary\\SMBLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WS\\RemoteFilesystem\\SMBLibrary\\SMBLibrary\\SMBLibrary.csproj",
+        "projectName": "SMBLibrary",
+        "projectPath": "D:\\WS\\RemoteFilesystem\\SMBLibrary\\SMBLibrary\\SMBLibrary.csproj",
+        "packagesPath": "C:\\Users\\sidristyy\\.nuget\\packages\\",
+        "outputPath": "D:\\WS\\RemoteFilesystem\\SMBLibrary\\SMBLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\WS\\RemoteFilesystem\\NuGet.Config",
+          "C:\\Users\\sidristyy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "http://nexus-trawl.ad.speechpro.com:8081/repository/nuget-hosted/": {},
+          "http://nexus-trawl.ad.speechpro.com:8081/repository/nuget-trawl/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\WS\\RemoteFilesystem\\DevTools.Samba.Metrics\\DevTools.Samba.Metrics.csproj": {
+                "projectPath": "D:\\WS\\RemoteFilesystem\\DevTools.Samba.Metrics\\DevTools.Samba.Metrics.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "System.Linq.Async": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

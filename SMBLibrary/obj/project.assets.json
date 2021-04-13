@@ -1,0 +1,135 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "System.Linq.Async/4.1.1": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.1/System.Linq.Async.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/System.Linq.Async.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "System.Linq.Async/4.1.1": {
+      "sha512": "+MYrr8Jz8ayKhOJrqh+9EH4y2qcKYUehxKXE3j4IG5to4FlXz6HF0CgBUtYqrcbW5uOaCEUoZ+SVnp4dEIAi6Q==",
+      "type": "package",
+      "path": "system.linq.async/4.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/System.Linq.Async.dll",
+        "lib/net461/System.Linq.Async.xml",
+        "lib/netcoreapp3.0/System.Linq.Async.dll",
+        "lib/netcoreapp3.0/System.Linq.Async.xml",
+        "lib/netstandard2.0/System.Linq.Async.dll",
+        "lib/netstandard2.0/System.Linq.Async.xml",
+        "lib/netstandard2.1/System.Linq.Async.dll",
+        "lib/netstandard2.1/System.Linq.Async.xml",
+        "ref/net461/System.Linq.Async.dll",
+        "ref/net461/System.Linq.Async.xml",
+        "ref/netcoreapp3.0/System.Linq.Async.dll",
+        "ref/netcoreapp3.0/System.Linq.Async.xml",
+        "ref/netstandard2.0/System.Linq.Async.dll",
+        "ref/netstandard2.0/System.Linq.Async.xml",
+        "ref/netstandard2.1/System.Linq.Async.dll",
+        "ref/netstandard2.1/System.Linq.Async.xml",
+        "system.linq.async.4.1.1.nupkg.sha512",
+        "system.linq.async.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "D:\\WS\\RemoteFilesystem\\DevTools.Samba.Metrics\\DevTools.Samba.Metrics.csproj",
+      "System.Linq.Async >= 4.1.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sidristyy\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\WS\\RemoteFilesystem\\SMBLibrary\\SMBLibrary\\SMBLibrary.csproj",
+      "projectName": "SMBLibrary",
+      "projectPath": "D:\\WS\\RemoteFilesystem\\SMBLibrary\\SMBLibrary\\SMBLibrary.csproj",
+      "packagesPath": "C:\\Users\\sidristyy\\.nuget\\packages\\",
+      "outputPath": "D:\\WS\\RemoteFilesystem\\SMBLibrary\\SMBLibrary\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "D:\\WS\\RemoteFilesystem\\NuGet.Config",
+        "C:\\Users\\sidristyy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "http://nexus-trawl.ad.speechpro.com:8081/repository/nuget-hosted/": {},
+        "http://nexus-trawl.ad.speechpro.com:8081/repository/nuget-trawl/": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "D:\\WS\\RemoteFilesystem\\DevTools.Samba.Metrics\\DevTools.Samba.Metrics.csproj": {
+              "projectPath": "D:\\WS\\RemoteFilesystem\\DevTools.Samba.Metrics\\DevTools.Samba.Metrics.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "dependencies": {
+          "System.Linq.Async": {
+            "target": "Package",
+            "version": "[4.1.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "NETStandard.Library": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'D:\\WS\\RemoteFilesystem\\DevTools.Samba.Metrics\\DevTools.Samba.Metrics.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "D:\\WS\\RemoteFilesystem\\DevTools.Samba.Metrics\\DevTools.Samba.Metrics.csproj",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    }
+  ]
+}

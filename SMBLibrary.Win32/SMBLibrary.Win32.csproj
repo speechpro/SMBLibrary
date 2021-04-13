@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net20;net40;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>net462;netstandard2.0</TargetFrameworks>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <AssemblyName>SMBLibrary.Win32</AssemblyName>
     <Version>1.4.2</Version>
@@ -12,13 +12,13 @@
     <PackageProjectUrl>https://github.com/TalAloni/SMBLibrary</PackageProjectUrl>
     <RepositoryUrl>https://github.com/TalAloni/SMBLibrary</RepositoryUrl>
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\SMBLibrary\SMBLibrary.csproj" />
-  </ItemGroup>
   
   <ItemGroup Condition="'$(Configuration)' != 'Release'">
     <ProjectReference Include="..\Utilities\Utilities.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\SMBLibrary.STC\SMBLibrary.STC.csproj" />
   </ItemGroup>
 
 </Project>

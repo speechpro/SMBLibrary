@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net40</TargetFrameworks>
+    <TargetFrameworks>net462</TargetFrameworks>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <AssemblyName>SMBServer.Tests</AssemblyName>
     <RootNamespace>SMBServer.Tests</RootNamespace>
@@ -9,8 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SMBLibrary.STC\SMBLibrary.STC.csproj" />
     <ProjectReference Include="..\SMBLibrary.Win32\SMBLibrary.Win32.csproj" />
-    <ProjectReference Include="..\SMBLibrary\SMBLibrary.csproj" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(Configuration)' != 'Release'">
