@@ -10,7 +10,7 @@ using System.Buffers;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
-using DevTools.MemoryPools.Memory;
+using MemoryPools.Memory;
 using SMBLibrary.SMB1;
 
 namespace SMBLibrary.Client

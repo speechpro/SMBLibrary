@@ -7,7 +7,7 @@
 
 using System.Buffers;
 using System.Collections.Generic;
-using DevTools.MemoryPools.Memory;
+using MemoryPools.Memory;
 
 namespace SMBLibrary.SMB1
 {

@@ -10,7 +10,7 @@ using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
 using System.Threading;
-using DevTools.MemoryPools.Memory;
+using MemoryPools.Memory;
 using SMBLibrary.Authentication.GSSAPI;
 using SMBLibrary.NetBios;
 using SMBLibrary.Server.SMB2;

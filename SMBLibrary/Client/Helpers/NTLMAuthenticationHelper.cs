@@ -8,7 +8,7 @@
 using System;
 using System.Buffers;
 using System.Security.Cryptography;
-using DevTools.MemoryPools.Memory;
+using MemoryPools.Memory;
 using SMBLibrary.Authentication.GSSAPI;
 using SMBLibrary.Authentication.NTLM;
 using Utilities;

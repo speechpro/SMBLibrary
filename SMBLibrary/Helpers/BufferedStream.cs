@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
-using DevTools.MemoryPools.Memory;
+using MemoryPools.Memory;
 
 namespace SMBLibrary
 {

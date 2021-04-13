@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Buffers;
-using DevTools.MemoryPools.Memory;
+using MemoryPools.Memory;
 using SMBLibrary.SMB1;
 
 namespace SMBLibrary.Client

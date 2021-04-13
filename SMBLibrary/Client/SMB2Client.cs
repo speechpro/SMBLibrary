@@ -14,8 +14,7 @@ using System.Net.Sockets;
 using System.Security.Cryptography;
 using System.Threading;
 using System.Threading.Tasks;
-using DevTools.MemoryPools.Memory;
-using SMBLibrary.Metrics;
+using MemoryPools.Memory;
 using SMBLibrary.NetBios;
 using SMBLibrary.SMB2;
 using Utilities;
@@ -62,12 +61,9 @@ namespace SMBLibrary.Client
 
         Action<Task<int>, object> _onClientSocketChainedReceiveCached;
 
-        private readonly ISmbLibraryInternalObjectsFactory _factory;
-
-        public Smb2Client(ISmbLibraryInternalObjectsFactory factory)
+        public Smb2Client()
         {
             _onClientSocketChainedReceiveCached = OnClientSocketChainedReceive;
-            _factory = factory;
         }
 
         public async ValueTask<bool> ConnectAsync(IPAddress serverAddress, SMBTransportType transport)
@@ -421,7 +417,7 @@ namespace SMBLibrary.Client
                     status = response.Header.Status;
                     if (response.Header.Status == NTStatus.STATUS_SUCCESS && response is TreeConnectResponse)
                     {
-                        return NtResult.Create(status, (ISMBFileStore) _factory.CreateSmb2FileStore(this, response.Header.TreeId));
+                        return NtResult.Create(status, (ISMBFileStore) new Smb2FileStore(this, response.Header.TreeId));
                     }
                 }
                 else

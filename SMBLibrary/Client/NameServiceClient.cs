@@ -7,7 +7,7 @@
 
 using System.Net;
 using System.Net.Sockets;
-using DevTools.MemoryPools.Memory;
+using MemoryPools.Memory;
 using SMBLibrary.NetBios;
 
 namespace SMBLibrary.Client

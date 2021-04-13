@@ -8,7 +8,7 @@
 using System;
 using System.Buffers;
 using System.Text;
-using DevTools.MemoryPools.Memory;
+using MemoryPools.Memory;
 using Utilities;
 
 namespace SMBLibrary.Authentication.NTLM

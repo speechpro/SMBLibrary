@@ -6,8 +6,6 @@
  */
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
 using System.IO;
 using System.Net;
 using System.Net.Sockets;
@@ -179,8 +177,8 @@ namespace SMBServer
             FileSystemShare share = new FileSystemShare(shareName, new NTDirectoryFileSystem(sharePath));
             share.AccessRequested += delegate(object sender, AccessRequestArgs args)
             {
-                bool hasReadAccess = Contains(readAccess, "Users") || Contains(readAccess, args.UserName);
-                bool hasWriteAccess = Contains(writeAccess, "Users") || Contains(writeAccess, args.UserName);
+                bool hasReadAccess = Contains(readAccess, "Users") || Contains(readAccess, args.UserName.ToString());
+                bool hasWriteAccess = Contains(writeAccess, "Users") || Contains(writeAccess, args.UserName.ToString());
                 if (args.RequestedAccess == FileAccess.Read)
                 {
                     args.Allow = hasReadAccess;

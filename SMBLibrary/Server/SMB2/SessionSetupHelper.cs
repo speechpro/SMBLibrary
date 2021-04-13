@@ -6,7 +6,7 @@
  */
 
 using System.Buffers;
-using DevTools.MemoryPools.Memory;
+using MemoryPools.Memory;
 using SMBLibrary.Authentication.GSSAPI;
 using SMBLibrary.SMB2;
 using Utilities;

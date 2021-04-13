@@ -10,7 +10,7 @@ using System.Buffers;
 using System.Collections.Generic;
 using System.IO;
 using System.Security.Cryptography;
-using DevTools.MemoryPools.Memory;
+using MemoryPools.Memory;
 using Utilities;
 
 namespace SMBLibrary.SMB2

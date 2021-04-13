@@ -8,7 +8,7 @@
 using System;
 using System.Buffers;
 using System.Collections.Generic;
-using DevTools.MemoryPools.Memory;
+using MemoryPools.Memory;
 using SMBLibrary.RPC;
 using SMBLibrary.Services;
 using Utilities;

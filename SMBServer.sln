@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utilities", "Utilities\Utilities.csproj", "{6E0F2D1E-6167-4032-BA90-DEE3A99207D0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMBLibrary.STC", "SMBLibrary.STC\SMBLibrary.STC.csproj", "{8D9E8F5D-FD13-4E4C-9723-A333DA2034A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMBLibrary", "SMBLibrary\SMBLibrary.csproj", "{8D9E8F5D-FD13-4E4C-9723-A333DA2034A7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMBLibrary.Win32", "SMBLibrary.Win32\SMBLibrary.Win32.csproj", "{DB054FD5-AFB3-4EDD-9FA4-136C9E93FC05}"
 EndProject

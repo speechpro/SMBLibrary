@@ -5,7 +5,7 @@
  * either version 3 of the License, or (at your option) any later version.
  */
 
-using DevTools.MemoryPools.Memory;
+using MemoryPools.Memory;
 using SMBLibrary.SMB2;
 using Utilities;
 

@@ -9,7 +9,7 @@ using System;
 using System.Buffers;
 using System.IO;
 using System.Net;
-using DevTools.MemoryPools.Memory;
+using MemoryPools.Memory;
 
 namespace SMBLibrary.Server
 {

@@ -1,7 +1,0 @@
-D:\WS\RemoteFilesystem\SMBLibrary\Utilities\bin\Debug\netstandard2.0\Utilities.deps.json
-D:\WS\RemoteFilesystem\SMBLibrary\Utilities\bin\Debug\netstandard2.0\Utilities.dll
-D:\WS\RemoteFilesystem\SMBLibrary\Utilities\bin\Debug\netstandard2.0\Utilities.pdb
-D:\WS\RemoteFilesystem\SMBLibrary\Utilities\obj\Debug\netstandard2.0\Utilities.csprojAssemblyReference.cache
-D:\WS\RemoteFilesystem\SMBLibrary\Utilities\obj\Debug\netstandard2.0\Utilities.csproj.CoreCompileInputs.cache
-D:\WS\RemoteFilesystem\SMBLibrary\Utilities\obj\Debug\netstandard2.0\Utilities.dll
-D:\WS\RemoteFilesystem\SMBLibrary\Utilities\obj\Debug\netstandard2.0\Utilities.pdb

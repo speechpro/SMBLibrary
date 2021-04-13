@@ -8,8 +8,8 @@
 using System;
 using System.Buffers;
 using System.Collections.Generic;
-using DevTools.MemoryPools.Memory;
-using DevTools.MemoryPools.Collections.Specialized;
+using MemoryPools.Memory;
+using MemoryPools.Collections.Specialized;
 using SMBLibrary.Authentication.NTLM;
 using Utilities;
 

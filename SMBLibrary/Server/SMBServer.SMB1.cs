@@ -6,7 +6,7 @@
  */
 
 using System.Collections.Generic;
-using DevTools.MemoryPools.Memory;
+using MemoryPools.Memory;
 using SMBLibrary.NetBios;
 using SMBLibrary.Server.SMB1;
 using SMBLibrary.SMB1;

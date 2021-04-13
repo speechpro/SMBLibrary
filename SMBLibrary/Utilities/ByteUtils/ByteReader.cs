@@ -3,7 +3,7 @@ using System.Buffers;
 using System.IO;
 using System.Runtime.CompilerServices;
 using System.Text;
-using DevTools.MemoryPools.Memory;
+using MemoryPools.Memory;
 using SMBLibrary;
 
 namespace Utilities

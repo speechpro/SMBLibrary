@@ -6,7 +6,7 @@
  */
 
 using System;
-using DevTools.MemoryPools.Memory;
+using MemoryPools.Memory;
 using Utilities;
 
 namespace SMBLibrary.SMB2

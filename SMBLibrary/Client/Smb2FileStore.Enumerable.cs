@@ -1,11 +1,9 @@
 ﻿using System;
 using System.Buffers;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Threading;
 using System.Threading.Tasks;
-using DevTools.MemoryPools.Memory;
-using DevTools.Samba.Metrics.Helpers;
+using MemoryPools.Memory;
 using SMBLibrary.SMB2;
 
 namespace SMBLibrary.Client

@@ -7,7 +7,7 @@
 
 using System;
 using System.IO;
-using DevTools.MemoryPools.Memory;
+using MemoryPools.Memory;
 using Utilities;
 
 namespace SMBLibrary

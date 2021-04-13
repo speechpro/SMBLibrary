@@ -8,8 +8,8 @@
 using System;
 using System.Buffers;
 using System.IO;
-using DevTools.MemoryPools.Collections.Specialized;
-using DevTools.MemoryPools.Memory;
+using MemoryPools.Collections.Specialized;
+using MemoryPools.Memory;
 using Utilities;
 
 namespace SMBLibrary.Authentication.GSSAPI

@@ -12,9 +12,8 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 using System.Threading.Tasks;
-using DevTools.MemoryPools.Memory;
+using MemoryPools.Memory;
 using SMBLibrary.Authentication.NTLM;
-using SMBLibrary.Metrics;
 using SMBLibrary.NetBios;
 using SMBLibrary.Services;
 using SMBLibrary.SMB1;
@@ -60,12 +59,9 @@ namespace SMBLibrary.Client
         private byte[] _serverChallenge;
         private byte[] _securityBlob;
 
-        private ISmbLibraryInternalObjectsFactory _factory;
-        
-        public SMB1Client(ISmbLibraryInternalObjectsFactory factory)
+        public SMB1Client()
         {
             _onClientSocketChainedReceiveCached = OnClientSocketChainedReceive;
-            _factory = factory;
         }
 
         // done
@@ -418,7 +414,7 @@ namespace SMBLibrary.Client
                 {
                     var response = (TreeConnectAndXResponse)reply.Commands[0];
                     reply.Dispose();
-                    return _factory.CreateSmb1FileStore(this, reply.Header.TID);
+                    return new SMB1FileStore(this, reply.Header.TID);
                 }
             }
             else

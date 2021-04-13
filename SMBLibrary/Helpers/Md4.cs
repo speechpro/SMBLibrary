@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Text;
-using DevTools.MemoryPools.Memory;
+using MemoryPools.Memory;
 
 namespace SMBLibrary
 {

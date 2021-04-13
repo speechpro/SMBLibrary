@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\DevTools.Samba.Metrics\DevTools.Samba.Metrics.csproj" />
+    <ProjectReference Include="..\MemoryPools\MemoryPools.csproj" />
   </ItemGroup>
   
 </Project>
